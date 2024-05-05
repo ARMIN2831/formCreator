@@ -4,9 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+Route::get('/dashboard', \App\Livewire\Dashboard::class)->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard/{id}', \App\Livewire\Workspace::class)->middleware(['auth', 'verified'])->name('workspace');
 
 Route::view('profile', 'profile')
     ->middleware(['auth'])
