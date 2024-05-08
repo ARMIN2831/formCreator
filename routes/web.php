@@ -17,3 +17,4 @@ Route::get('/home',\App\Livewire\Landing::class)->name('home');
 Route::get('/pricing',\App\Livewire\Pricing::class)->name('pricing');
 Route::get('/about',\App\Livewire\About::class)->name('about');
 Route::get('/blog',\App\Livewire\Blog::class)->name('blog');
+Route::get('/form/{id}',\App\Livewire\Form::class)->name('form');
