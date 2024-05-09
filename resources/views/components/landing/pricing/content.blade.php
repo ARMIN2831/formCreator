@@ -1,6 +1,6 @@
-<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto px-20 pt-24">
+<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto lg:px-20 md:px-10 p-2 pt-24">
 
-    <h2 class="font-bold text-6xl text-center mb-8">Choose a plan</h2>
+    <h2 class="font-bold lg:text-6xl text-3xl text-center mb-8">Choose a plan</h2>
     <p class="w-full lg:w-[700px] mx-auto text-center">Your payments, billing, tax compliance, and more at an all-inclusive price. No added costs, no hidden fees.</p>
     <div x-data="{ change: true }" class="relative text-center mt-10 bg-slate-300 px-4 py-2 rounded-full flex flex-row gap-8">
         <span :class="{ 'left-0': !change, 'left-[118px]': !change }" class="absolute w-[70px] h-[32px] rounded-full bg-slate-100 z-10 transition duration-200 ease-in-out"></span>
@@ -117,9 +117,9 @@
 
     @include('components.landing.slider-section')
 
-    <div class="flex flex-row gap-72 w-full mt-24">
+    <div class="flex lg:flex-row flex-col gap-72 w-full mt-24">
         <div>
-            <h2 class="text-center text-6xl font-semibold lg:text-left">FAQ</h2>
+            <h2 class="text-center lg:text-6xl text-3xl font-semibold lg:text-left">FAQ</h2>
         </div>
         <div class="flex flex-col gap-8">
             <div x-data="{ menu : false }">

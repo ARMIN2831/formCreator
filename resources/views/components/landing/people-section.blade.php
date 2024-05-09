@@ -1,7 +1,7 @@
-<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto px-20 pt-24">
-    <h3 class="text-center text-blue-900 text-4xl font-bold">What People are Saying</h3>
+<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto lg:px-20 md:px-10 p-2 pt-24">
+    <h3 class="text-center text-blue-900 lg:text-4xl font-bold text-2xl">What People are Saying</h3>
 
-    <div class=" w-full flex flex-WRAP gap-y-4 mt-10">
+    <div class=" w-full flex lg:flex-row md:flex-row flex-col gap-y-4 mt-10">
         <div class="w-full lg:w-1/3 px-2">
             <div class="p-7 rounded-xl border border-gray-200 bg-gray-100 relative overflow-hidden my-4">
                 <div class="absolute top-5 right-2 w-[30px] h-[30px]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-xl text-[#ff6154]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M326.3 218.8c0 20.5-16.7 37.2-37.2 37.2h-70.3v-74.4h70.3c20.5 0 37.2 16.7 37.2 37.2zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-128.1-37.2c0-47.9-38.9-86.8-86.8-86.8H169.2v248h49.6v-74.4h70.3c47.9 0 86.8-38.9 86.8-86.8z"></path></svg></div>

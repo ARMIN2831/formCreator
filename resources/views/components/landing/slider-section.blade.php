@@ -1,4 +1,4 @@
-<div>
+<div class="w-full overflow-hidden">
     <div class="w-full mt-6">
         <div class="w-[800px] mx-auto relative overflow-hidden">
             <ul class="flex flex-row justify-center items-center animate-sliderAnimate">

@@ -1,8 +1,9 @@
-<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto px-20 pt-52 text-center">
-    <h1 class="text-8xl font-black">
+<section class="w-screen container flex justify-center items-center flex-col max-w-[1320px] mx-auto lg:px-20 md:px-10 p-2 pt-52 text-center relative">
+    <h1 class="lg:text-8xl md:text-5xl text-4xl font-black z-10">
         Let’s <span class="text-blue-700">hop</span> on a call
     </h1>
-    <p class="mb-8 mt-10 mx-auto text-gray-600 lg:w-[800px]">
+    <span class="w-1/3 h-60 bg-purple-200 rounded-full absolute top-32 lg:left-64 left-32 blur-3xl z-0"></span>
+    <p class="mb-8 mt-10 mx-auto text-gray-600 lg:w-[800px] z-10">
         Put a short description with a maximum length of 150
         characters here, this description should be considered as something your users would see first.
     </p>

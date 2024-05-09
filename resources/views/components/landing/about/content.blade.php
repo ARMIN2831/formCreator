@@ -1,8 +1,8 @@
-<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto px-20 pt-24">
+<section class="container flex justify-center items-center flex-col max-w-[1320px] mx-auto lg:px-20 md:px-10 p-2 pt-24">
 
     <div class="relative text-center z-20 w-full">
-        <span class="text-[#cda53d] my-4 block text-center font-bold text-[18px]">Pastel Candy for Marketers</span>
-        <h1 class="font-black text-6xl">About us</h1>
+        <span class="text-[#cda53d] my-4 block text-center font-bold lg:text-[18px] text-[15px]">Pastel Candy for Marketers</span>
+        <h1 class="font-black lg:text-6xl text-4xl">About us</h1>
         <p class="mb-8 mt-2 lg:w-[700px] mx-auto text-zinc-800"> Put a short description with a maximum length of 150 characters here, this description should be considered as something your users would see first.</p>
         <button class="bg-blue-600 border-none rounded-xl hover:bg-blue-700 text-white text-center h-12 px-10 text-sm font-medium min-w-[116px]" type="button">BROWSE ALL</button>
         <img src="{{ asset('storage/photos/about.webp') }}" width="1000" height="1000" class="w-full lg:w-[90%] mt-20 relative z-10  mx-auto block rounded-lg">
