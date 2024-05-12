@@ -1,4 +1,4 @@
-<div class="w-screen h-screen p-4">
+<div class="p-4 w-full h-full">
     <div class="w-full h-full flex flex-col border border-gray-300 relative">
 
         <div class="text-sm font-semibold flex flex-row absolute w-full justify-center top-4 z-10 py-1.5">
