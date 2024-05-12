@@ -69,6 +69,7 @@ class Workspace extends Component
     public function updateField($index,$value)
     {
        Field::whereId($this->f->id)->update([$index=>$value]);
+       $this->f->$index = $value;
     }
     public function updateFieldDropdown($key = 'null',$text = '')
     {
